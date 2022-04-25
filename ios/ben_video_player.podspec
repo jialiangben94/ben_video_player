@@ -10,6 +10,8 @@ A Flutter plugin for playing back video on a Widget surface.
 Downloaded by pub (not CocoaPods).
                        DESC
   s.homepage         = 'https://github.com/jialiangben94/ben_video_player'
+  s.license          = { :type => 'BSD', :file => '../LICENSE' }
+  s.author           = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
   s.source           = { :http => 'https://github.com/jialiangben94/ben_video_player.git' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
