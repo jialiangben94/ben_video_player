@@ -34,6 +34,7 @@ android {
             resolutionStrategy { force 'androidx.core:core:1.6.0' }
         }
         minSdkVersion 16
+        targetSdkVersion 30
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     lintOptions {
