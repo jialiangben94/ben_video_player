@@ -10,7 +10,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: io.flutter.plugins.videoplayer
+        package: io.ben.plugins.videoplayer
         pluginClass: VideoPlayerPlugin
       ios:
         pluginClass: BLTVideoPlayerPlugin

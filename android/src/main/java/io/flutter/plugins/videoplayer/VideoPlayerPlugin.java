@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-package io.flutter.plugins.videoplayer;
+package io.ben.plugins.videoplayer;
 
 import android.content.Context;
 import android.os.Build;
@@ -12,14 +12,14 @@ import io.flutter.Log;
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.BinaryMessenger;
 import io.flutter.plugin.common.EventChannel;
-import io.flutter.plugins.videoplayer.Messages.CreateMessage;
-import io.flutter.plugins.videoplayer.Messages.LoopingMessage;
-import io.flutter.plugins.videoplayer.Messages.MixWithOthersMessage;
-import io.flutter.plugins.videoplayer.Messages.PlaybackSpeedMessage;
-import io.flutter.plugins.videoplayer.Messages.PositionMessage;
-import io.flutter.plugins.videoplayer.Messages.TextureMessage;
-import io.flutter.plugins.videoplayer.Messages.VideoPlayerApi;
-import io.flutter.plugins.videoplayer.Messages.VolumeMessage;
+import io.ben.plugins.videoplayer.Messages.CreateMessage;
+import io.ben.plugins.videoplayer.Messages.LoopingMessage;
+import io.ben.plugins.videoplayer.Messages.MixWithOthersMessage;
+import io.ben.plugins.videoplayer.Messages.PlaybackSpeedMessage;
+import io.ben.plugins.videoplayer.Messages.PositionMessage;
+import io.ben.plugins.videoplayer.Messages.TextureMessage;
+import io.ben.plugins.videoplayer.Messages.VideoPlayerApi;
+import io.ben.plugins.videoplayer.Messages.VolumeMessage;
 import io.flutter.view.TextureRegistry;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;

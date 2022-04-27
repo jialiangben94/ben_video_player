@@ -1,4 +1,4 @@
-group 'io.flutter.plugins.videoplayer'
+group 'io.ben.plugins.videoplayer'
 version '1.0-SNAPSHOT'
 def args = ["-Xlint:deprecation","-Xlint:unchecked","-Werror"]
 
