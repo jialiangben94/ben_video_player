@@ -350,7 +350,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.initialize",
+                "dev.flutter.pigeon.BenVideoPlayerApi.initialize",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
@@ -372,7 +372,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.create",
+                "dev.flutter.pigeon.BenVideoPlayerApi.create",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
@@ -396,7 +396,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.dispose",
+                "dev.flutter.pigeon.BenVideoPlayerApi.dispose",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
@@ -420,7 +420,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.setLooping",
+                "dev.flutter.pigeon.BenVideoPlayerApi.setLooping",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
@@ -444,7 +444,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.setVolume",
+                "dev.flutter.pigeon.BenVideoPlayerApi.setVolume",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
@@ -468,7 +468,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.setPlaybackSpeed",
+                "dev.flutter.pigeon.BenVideoPlayerApi.setPlaybackSpeed",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
@@ -492,7 +492,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.play",
+                "dev.flutter.pigeon.BenVideoPlayerApi.play",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
@@ -516,7 +516,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.position",
+                "dev.flutter.pigeon.BenVideoPlayerApi.position",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
@@ -540,7 +540,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.seekTo",
+                "dev.flutter.pigeon.BenVideoPlayerApi.seekTo",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
@@ -564,7 +564,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.pause",
+                "dev.flutter.pigeon.BenVideoPlayerApi.pause",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
@@ -588,7 +588,7 @@ public class Messages {
         BasicMessageChannel<Object> channel =
             new BasicMessageChannel<>(
                 binaryMessenger,
-                "dev.flutter.pigeon.VideoPlayerApi.setMixWithOthers",
+                "dev.flutter.pigeon.BenVideoPlayerApi.setMixWithOthers",
                 new StandardMessageCodec());
         if (api != null) {
           channel.setMessageHandler(
